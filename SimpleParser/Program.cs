@@ -29,6 +29,7 @@ namespace SimpleParser
                     try
                     {
                         // Запускаем нужный нам браузер и передаем ему в качестве аргумента путь скачивания
+                        // google chrome
                         Process.Start("chrome.exe", path);
 
                         Console.WriteLine("Download " + name + " is succesfull!");
